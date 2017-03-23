@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/res/merged/debug/drawable-hdpi/logogsb.png",
+        "source": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/drawable-hdpi/logogsb.png"
+    },
+    {
+        "merged": "/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/res/merged/debug/drawable-hdpi/frais_repas.png",
+        "source": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/drawable-hdpi/frais_repas.png"
+    },
+    {
+        "merged": "/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/res/merged/debug/drawable-hdpi/frais_km.png",
+        "source": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/drawable-hdpi/frais_km.png"
+    },
+    {
+        "merged": "/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/res/merged/debug/drawable-hdpi/suppr.png",
+        "source": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/drawable-hdpi/suppr.png"
+    },
+    {
+        "merged": "/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/res/merged/debug/drawable-hdpi/frais_hf.png",
+        "source": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/drawable-hdpi/frais_hf.png"
+    },
+    {
+        "merged": "/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/res/merged/debug/drawable-hdpi/frais_etape.png",
+        "source": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/drawable-hdpi/frais_etape.png"
+    },
+    {
+        "merged": "/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/res/merged/debug/drawable-hdpi/transfert.png",
+        "source": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/drawable-hdpi/transfert.png"
+    },
+    {
+        "merged": "/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/res/merged/debug/drawable-hdpi/frais_hf_recap.png",
+        "source": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/drawable-hdpi/frais_hf_recap.png"
+    },
+    {
+        "merged": "/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/res/merged/debug/drawable-hdpi/frais_nuitee.png",
+        "source": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/drawable-hdpi/frais_nuitee.png"
+    }
+]

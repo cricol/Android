@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1707968a8e67e3e8f708a3ea6f61b1570b1f2aad">
+        <dex dex="/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_449c11afffe04570c09df0457d0e545cb637c654/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/root/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_89ceda92875ab9dbed145556b5d456dc3415dd3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4b29ebb2a7cc749119daa342f392edc7993b4047/classes.dex" />
+    </item>
+
+</items>

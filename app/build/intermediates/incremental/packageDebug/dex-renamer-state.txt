@@ -1,0 +1,7 @@
+#Tue Mar 21 20:36:35 CET 2017
+base.0=/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_449c11afffe04570c09df0457d0e545cb637c654
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4b29ebb2a7cc749119daa342f392edc7993b4047/classes.dex
+base.1=/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_4b29ebb2a7cc749119daa342f392edc7993b4047
+file.0=/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_449c11afffe04570c09df0457d0e545cb637c654/classes.dex

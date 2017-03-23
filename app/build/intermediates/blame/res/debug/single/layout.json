@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/res/merged/debug/layout/dialog_login.xml",
+        "source": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/layout/dialog_login.xml"
+    },
+    {
+        "merged": "/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/res/merged/debug/layout/layout_liste.xml",
+        "source": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/layout/layout_liste.xml"
+    },
+    {
+        "merged": "/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/res/merged/debug/layout/activity_etape.xml",
+        "source": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/layout/activity_etape.xml"
+    },
+    {
+        "merged": "/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/res/merged/debug/layout/activity_repas.xml",
+        "source": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/layout/activity_repas.xml"
+    },
+    {
+        "merged": "/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/res/merged/debug/layout/activity_hf.xml",
+        "source": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/layout/activity_hf.xml"
+    },
+    {
+        "merged": "/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/res/merged/debug/layout/activity_km.xml",
+        "source": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/layout/activity_km.xml"
+    },
+    {
+        "merged": "/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/res/merged/debug/layout/activity_nuitee.xml",
+        "source": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/layout/activity_nuitee.xml"
+    },
+    {
+        "merged": "/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/res/merged/debug/layout/activity_hf_recap.xml",
+        "source": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/layout/activity_hf_recap.xml"
+    },
+    {
+        "merged": "/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/layout/activity_main.xml"
+    }
+]
