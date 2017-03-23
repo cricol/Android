@@ -17,7 +17,7 @@ import java.util.Date;
 public class AccesDistant implements AsyncResponse {
 
     // propriétés
-    private static final String SERVERADDR = "http://192.168.0.16/coach/serveurcoach.php" ;
+    private static final String SERVERADDR = "http://cricol.fr/Android/synchrodonnees.php" ;
 
     /**
      * Constructeur

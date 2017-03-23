@@ -105,12 +105,11 @@ public class LoginDialog extends Activity {
                             listFraisHf.clear();
 
                         }
-
+                        listFrais.add(Global.listFraisMois.get(key).getEtape().toString());
+                        listFrais.add(Global.listFraisMois.get(key).getKm().toString());
                         listFrais.add(Global.listFraisMois.get(key).getNuitee().toString());
                         listFrais.add(Global.listFraisMois.get(key).getRepas().toString());
-                        listFrais.add(Global.listFraisMois.get(key).getKm().toString());
                         listFrais.add(Global.listFraisMois.get(key).getAnnee().toString());
-                        listFrais.add(Global.listFraisMois.get(key).getEtape().toString());
                         listFrais.add(Global.listFraisMois.get(key).getMois().toString());
                         listFrais.add(login.getText().toString());
                         listFrais.add(mdp.getText().toString());
