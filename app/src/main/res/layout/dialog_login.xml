@@ -11,12 +11,12 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <EditText
             android:id="@+id/txtLogin"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Login">
@@ -25,7 +25,7 @@
 
         <EditText
             android:id="@+id/txtPassword"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Mot de Passe"
@@ -33,9 +33,10 @@
 
         <Button
             android:id="@+id/cmdLoginValider"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Connexion" />
+
     </LinearLayout>
 
 </LinearLayout>
