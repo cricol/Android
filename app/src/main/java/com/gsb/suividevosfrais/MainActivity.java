@@ -24,7 +24,8 @@ public class MainActivity extends Activity {
         cmdMenu_clic(((Button)findViewById(R.id.cmdEtape)), EtapeActivity.class) ;
         cmdMenu_clic(((Button)findViewById(R.id.cmdHf)), HfActivity.class) ;
         cmdMenu_clic(((Button)findViewById(R.id.cmdHfRecap)), HfRecapActivity.class) ;
-        cmdTransfert_clic() ;
+        cmdMenu_clic(((Button)findViewById(R.id.cmdTransfert)), LoginDialog.class);
+        //cmdTransfert_clic() ;
     }
 
     @Override
@@ -64,7 +65,7 @@ public class MainActivity extends Activity {
     private void cmdTransfert_clic() {
     	((Button)findViewById(R.id.cmdTransfert)).setOnClickListener(new Button.OnClickListener() {
     		public void onClick(View v) {
-                cmdMenu_clic(((Button)findViewById(R.id.cmdTransfert)), LoginDialog.class);
+
     		}
     	}) ;    	
     }

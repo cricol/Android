@@ -7,8 +7,50 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
+                    "endLine": 7,
+                    "endColumn": 19,
+                    "endOffset": 219
+                },
+                "from": {
+                    "file": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 764,
+                        "endLine": 19,
+                        "endColumn": 19,
+                        "endOffset": 928
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 224,
+                    "endLine": 13,
+                    "endColumn": 19,
+                    "endOffset": 455
+                },
+                "from": {
+                    "file": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 934,
+                        "endLine": 26,
+                        "endColumn": 19,
+                        "endOffset": 1165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 460,
                     "endColumn": 57,
-                    "endOffset": 108
+                    "endOffset": 513
                 },
                 "from": {
                     "file": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values/dimens.xml",
@@ -23,11 +65,11 @@
             },
             {
                 "to": {
-                    "startLine": 3,
+                    "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 113,
+                    "startOffset": 518,
                     "endColumn": 55,
-                    "endOffset": 164
+                    "endOffset": 569
                 },
                 "from": {
                     "file": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values/dimens.xml",
@@ -42,11 +84,11 @@
             },
             {
                 "to": {
-                    "startLine": 4,
+                    "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 169,
+                    "startOffset": 574,
                     "endColumn": 52,
-                    "endOffset": 217
+                    "endOffset": 622
                 },
                 "from": {
                     "file": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values/strings.xml",
@@ -61,11 +103,11 @@
             },
             {
                 "to": {
-                    "startLine": 5,
+                    "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 222,
+                    "startOffset": 627,
                     "endColumn": 55,
-                    "endOffset": 273
+                    "endOffset": 678
                 },
                 "from": {
                     "file": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values/strings.xml",
@@ -80,11 +122,11 @@
             },
             {
                 "to": {
-                    "startLine": 6,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 278,
+                    "startOffset": 683,
                     "endColumn": 52,
-                    "endOffset": 326
+                    "endOffset": 731
                 },
                 "from": {
                     "file": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values/strings.xml",
@@ -99,11 +141,11 @@
             },
             {
                 "to": {
-                    "startLine": 7,
+                    "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 331,
+                    "startOffset": 736,
                     "endColumn": 65,
-                    "endOffset": 392
+                    "endOffset": 797
                 },
                 "from": {
                     "file": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values/strings.xml",
@@ -118,11 +160,11 @@
             },
             {
                 "to": {
-                    "startLine": 8,
+                    "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 397,
+                    "startOffset": 802,
                     "endColumn": 67,
-                    "endOffset": 460
+                    "endOffset": 865
                 },
                 "from": {
                     "file": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values/strings.xml",
@@ -137,11 +179,11 @@
             },
             {
                 "to": {
-                    "startLine": 9,
+                    "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 465,
+                    "startOffset": 870,
                     "endColumn": 70,
-                    "endOffset": 531
+                    "endOffset": 936
                 },
                 "from": {
                     "file": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values/strings.xml",
@@ -156,11 +198,11 @@
             },
             {
                 "to": {
-                    "startLine": 10,
+                    "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 536,
+                    "startOffset": 941,
                     "endColumn": 64,
-                    "endOffset": 596
+                    "endOffset": 1001
                 },
                 "from": {
                     "file": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values/strings.xml",
@@ -175,11 +217,11 @@
             },
             {
                 "to": {
-                    "startLine": 11,
+                    "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 601,
+                    "startOffset": 1006,
                     "endColumn": 70,
-                    "endOffset": 667
+                    "endOffset": 1072
                 },
                 "from": {
                     "file": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values/strings.xml",
@@ -194,11 +236,11 @@
             },
             {
                 "to": {
-                    "startLine": 12,
+                    "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 672,
+                    "startOffset": 1077,
                     "endColumn": 67,
-                    "endOffset": 735
+                    "endOffset": 1140
                 },
                 "from": {
                     "file": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values/strings.xml",
@@ -213,11 +255,11 @@
             },
             {
                 "to": {
-                    "startLine": 13,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 740,
+                    "startOffset": 1145,
                     "endColumn": 68,
-                    "endOffset": 804
+                    "endOffset": 1209
                 },
                 "from": {
                     "file": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values/strings.xml",
@@ -232,11 +274,11 @@
             },
             {
                 "to": {
-                    "startLine": 14,
+                    "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 809,
+                    "startOffset": 1214,
                     "endColumn": 67,
-                    "endOffset": 872
+                    "endOffset": 1277
                 },
                 "from": {
                     "file": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values/strings.xml",
@@ -251,12 +293,12 @@
             },
             {
                 "to": {
-                    "startLine": 15,
+                    "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 877,
-                    "endLine": 21,
+                    "startOffset": 1282,
+                    "endLine": 33,
                     "endColumn": 12,
-                    "endOffset": 1163
+                    "endOffset": 1568
                 },
                 "from": {
                     "file": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values/styles.xml",
@@ -272,12 +314,12 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 1168,
-                    "endLine": 24,
+                    "startOffset": 1573,
+                    "endLine": 36,
                     "endColumn": 12,
-                    "endOffset": 1323
+                    "endOffset": 1728
                 },
                 "from": {
                     "file": "/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values/styles.xml",

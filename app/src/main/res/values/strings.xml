@@ -12,5 +12,18 @@
     <string name="title_activity_hf_recap">Suivi de vos frais</string>
     <string name="title_activity_layout_liste">LayoutListe</string>
     <string name="title_activity_dialog_login">Connexion</string>
+    <string-array name="idTypeVehicule">
+        <item>4CVD</item>
+        <item>4CVE</item>
+        <item>5/6CVD</item>
+        <item>5/6CVE</item>
+    </string-array>
+
+    <string-array name="nomTypeVehicule">
+        <item>Vehicule 4 CV Diesel</item>
+        <item>Vehicule 4 CV Essence</item>
+        <item>Vehicule 5/6 CV Diesel</item>
+        <item>Vehicule 5/6 CV Essence</item>
+    </string-array>
 
 </resources>

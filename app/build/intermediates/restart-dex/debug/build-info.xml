@@ -6,26 +6,30 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1490291814168"
+    timestamp="1490458375965"
     token="7277509806973427089"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="184" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="25" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1" />
+
+    <artifact
+        location="/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1490291367397"
+        timestamp="1490455030822"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -66,7 +70,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1490291814168"
-        verifier="COLD_SWAP_REQUESTED" />
+        timestamp="1490458375965"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/chris/Téléchargements/SuiviDeVosFrais/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+    </build>
 
 </instant-run>

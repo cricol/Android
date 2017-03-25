@@ -2,6 +2,10 @@ package com.gsb.suividevosfrais;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.view.MotionEvent;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ArrayAdapter;
 import android.widget.DatePicker.OnDateChangedListener;
 import android.content.Intent;
 import android.view.Menu;
@@ -10,6 +14,12 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.Spinner;
+import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class KmActivity extends Activity {
 
@@ -17,6 +27,9 @@ public class KmActivity extends Activity {
 	private Integer annee ;
 	private Integer mois ;
 	private Integer qte ;
+	private	Spinner spinner;
+	private String idVehicule;
+	private Integer selectTypeVehicule;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -42,19 +55,42 @@ public class KmActivity extends Activity {
 	}
 
 	/**
+	 * Sur la selection du menu deroulant du type de vehicule : ajout de l'id du vehicule
+	 */
+	private void spinner_clic() {
+		int spinner_pos = spinner.getSelectedItemPosition();
+		String[] listeTypeVehicule = getResources().getStringArray(R.array.idTypeVehicule);
+		idVehicule = listeTypeVehicule[spinner_pos];
+		enregNewQte();
+	}
+
+	/**
 	 * Valorisation des propriétés avec les informations affichées
 	 */
 	private void valoriseProprietes() {
 		annee = ((DatePicker)findViewById(R.id.datKm)).getYear() ;
 		mois = ((DatePicker)findViewById(R.id.datKm)).getMonth() + 1 ;
+		spinner = ((Spinner)findViewById(R.id.spinnerVehicule));
+		//Recuperation de la position du type de vehicule pour le spinner
+		String[] listeTypeVehicule = getResources().getStringArray(R.array.idTypeVehicule);
+
 		// récupération de la qte correspondant au mois actuel
 		qte = 0 ;
+		Integer positionSpinner=0;
 		Integer key = annee*100+mois ;
 		if (Global.listFraisMois.containsKey(key)) {
 			qte = Global.listFraisMois.get(key).getKm() ;
+			for(int i=0;i<listeTypeVehicule.length; i++){
+				if(listeTypeVehicule[i].equals(Global.listFraisMois.get(key).getTypeVehicule())){
+					positionSpinner = i;
+				}
+			}
 		}
 		((EditText)findViewById(R.id.txtKm)).setText(qte.toString()) ;
+		//Selectionne l'item dans le spinner
+		((Spinner)findViewById(R.id.spinnerVehicule)).setSelection(positionSpinner);
 	}
+
 	
 	/**
 	 * Sur la selection de l'image : retour au menu principal
@@ -73,6 +109,7 @@ public class KmActivity extends Activity {
     private void cmdValider_clic() {
     	((Button)findViewById(R.id.cmdKmValider)).setOnClickListener(new Button.OnClickListener() {
     		public void onClick(View v) {
+				spinner_clic();
     			Serializer.serialize(Global.filename, Global.listFraisMois, KmActivity.this) ;
     			retourActivityPrincipale() ;    		
     		}
@@ -128,7 +165,8 @@ public class KmActivity extends Activity {
 			// creation du mois et de l'annee s'ils n'existent pas déjà
 			Global.listFraisMois.put(key, new FraisMois(annee, mois)) ;
 		}
-		Global.listFraisMois.get(key).setKm(qte) ;		
+		Global.listFraisMois.get(key).setKm(qte) ;
+		Global.listFraisMois.get(key).setTypeVehicule(idVehicule);
 	}
 
 	/**

@@ -64,7 +64,6 @@ public class LoginDialog extends Activity {
         login = (EditText)findViewById(R.id.txtLogin);
         mdp = (EditText)findViewById(R.id.txtPassword);
         accesDistant = new AccesDistant();
-
         cmdValider_clic() ;
     }
 
@@ -76,12 +75,11 @@ public class LoginDialog extends Activity {
     }
 
     /**
-     * Sur le clic du bouton valider : sérialisation
+     * Sur le clic du bouton valider : Envoi sur le Serveur Distant
      */
     private void cmdValider_clic() {
         ((Button)findViewById(R.id.cmdLoginValider)).setOnClickListener(new Button.OnClickListener() {
             public void onClick(View v) {
-
 
                 Iterator iter;
                 iter = Global.listFraisMois.keySet().iterator();
@@ -89,7 +87,7 @@ public class LoginDialog extends Activity {
                     while (iter.hasNext()) {
                         Object key = iter.next();
 
-
+                        //Ajout des Frais Hors Forfait dans la base de donnee pour chaque mois ajouter dans l'appli
                         Integer i = 0;
                         for (i = 0; i < Global.listFraisMois.get(key).getLesFraisHf().size(); i++) {
                             listFraisHf.add(Global.listFraisMois.get(key).getLesFraisHf().get(i).getJour().toString());
@@ -97,29 +95,29 @@ public class LoginDialog extends Activity {
                             listFraisHf.add(Global.listFraisMois.get(key).getAnnee().toString());
                             listFraisHf.add(Global.listFraisMois.get(key).getLesFraisHf().get(i).getMontant().toString());
                             listFraisHf.add(Global.listFraisMois.get(key).getLesFraisHf().get(i).getMotif().toString());
-                            listFraisHf.add(login.getText().toString());
-                            listFraisHf.add(mdp.getText().toString());
+                            listFraisHf.add("cbedos");
+                            listFraisHf.add("gmhxd");
                             JSONArray fraisMoisHf = new JSONArray(listFraisHf);
 
                             accesDistant.envoi("fraismoisHf", fraisMoisHf);
                             listFraisHf.clear();
 
                         }
+                        //Ajout des frais du mois dans la base de donnee pour chaque mois ajouter dans l'appli
                         listFrais.add(Global.listFraisMois.get(key).getEtape().toString());
                         listFrais.add(Global.listFraisMois.get(key).getKm().toString());
                         listFrais.add(Global.listFraisMois.get(key).getNuitee().toString());
                         listFrais.add(Global.listFraisMois.get(key).getRepas().toString());
                         listFrais.add(Global.listFraisMois.get(key).getAnnee().toString());
                         listFrais.add(Global.listFraisMois.get(key).getMois().toString());
-                        listFrais.add(login.getText().toString());
-                        listFrais.add(mdp.getText().toString());
+                        listFrais.add(Global.listFraisMois.get(key).getTypeVehicule().toString());
+                        listFrais.add("cbedos");
+                        listFrais.add("gmhxd");
 
                         JSONArray fraisMois = new JSONArray(listFrais);
 
                         accesDistant.envoi("fraismois", fraisMois);
                         listFrais.clear();
-
-
                     }
 
 

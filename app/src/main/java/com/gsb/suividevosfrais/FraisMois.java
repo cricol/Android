@@ -15,6 +15,7 @@ public class FraisMois implements Serializable {
 	private Integer km ; // nombre de km du mois
 	private Integer nuitee ; // nombre de nuitées du mois
 	private Integer repas ; // nombre de repas du mois
+	private String typeVehicule;
 	private ArrayList<FraisHf> lesFraisHf ; // liste des frais hors forfait du mois
 	
 	public FraisMois(Integer annee, Integer mois) {
@@ -24,6 +25,7 @@ public class FraisMois implements Serializable {
 		this.km = 0 ;
 		this.nuitee = 0 ;
 		this.repas = 0 ;
+		this.typeVehicule = null;
 		lesFraisHf = new ArrayList<FraisHf>() ;
 	}
 
@@ -90,7 +92,15 @@ public class FraisMois implements Serializable {
 
 	public void setRepas(Integer repas) {
 		this.repas = repas;
-	}	
+	}
+
+	public String getTypeVehicule() {
+		return typeVehicule;
+	}
+
+	public void setTypeVehicule(String typeVehicule) {
+		this.typeVehicule = typeVehicule;
+	}
 	
 	public ArrayList<FraisHf> getLesFraisHf() {
 		return lesFraisHf ;

@@ -5,6 +5,16 @@
         
     </style><style name="AppBaseTheme" parent="android:Theme.Black">
         
-    </style></file><file path="/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values/strings.xml" qualifiers=""><string name="hello_world">Hello world!</string><string name="title_activity_hf_recap">Suivi de vos frais</string><string name="title_activity_layout_liste">LayoutListe</string><string name="title_activity_dialog_login">Connexion</string><string name="action_settings">Settings</string><string name="title_activity_etape">Suivi de vos frais</string><string name="app_name">Suivi de vos frais</string><string name="title_activity_hf">Suivi de vos frais</string><string name="title_activity_frais_km">Suivi de vos frais</string><string name="title_activity_nuitee">Suivi de vos frais</string><string name="title_activity_repas">Suivi de vos frais</string></file><file path="/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values-v11/styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Black">
+    </style></file><file path="/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values/strings.xml" qualifiers=""><string name="hello_world">Hello world!</string><string name="title_activity_hf_recap">Suivi de vos frais</string><string name="title_activity_layout_liste">LayoutListe</string><string name="action_settings">Settings</string><string name="title_activity_etape">Suivi de vos frais</string><string name="app_name">Suivi de vos frais</string><string name="title_activity_frais_km">Suivi de vos frais</string><string-array name="nomTypeVehicule">
+        <item>Vehicule 4 CV Diesel</item>
+        <item>Vehicule 4 CV Essence</item>
+        <item>Vehicule 5/6 CV Diesel</item>
+        <item>Vehicule 5/6 CV Essence</item>
+    </string-array><string name="title_activity_repas">Suivi de vos frais</string><string name="title_activity_dialog_login">Connexion</string><string-array name="idTypeVehicule">
+        <item>4CVD</item>
+        <item>4CVE</item>
+        <item>5/6CVD</item>
+        <item>5/6CVE</item>
+    </string-array><string name="title_activity_hf">Suivi de vos frais</string><string name="title_activity_nuitee">Suivi de vos frais</string></file><file path="/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values-v11/styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Black">
         
     </style></file><file name="ic_launcher" path="/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/drawable-mdpi/ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file path="/home/chris/Téléchargements/SuiviDeVosFrais/app/src/main/res/values-sw720dp-land/dimens.xml" qualifiers="sw720dp-land-v13"><dimen name="activity_horizontal_margin">128dp</dimen></file></source><source path="/home/chris/Téléchargements/SuiviDeVosFrais/app/build/generated/res/rs/debug"/><source path="/home/chris/Téléchargements/SuiviDeVosFrais/app/build/generated/res/resValues/debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="/home/chris/Téléchargements/SuiviDeVosFrais/app/src/debug/res"/></dataSet><mergedItems/></merger>
