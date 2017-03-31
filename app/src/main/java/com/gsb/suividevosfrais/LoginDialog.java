@@ -84,6 +84,7 @@ public class LoginDialog extends Activity {
                 Iterator iter;
                 iter = Global.listFraisMois.keySet().iterator();
 
+
                     while (iter.hasNext()) {
                         Object key = iter.next();
 
@@ -95,8 +96,8 @@ public class LoginDialog extends Activity {
                             listFraisHf.add(Global.listFraisMois.get(key).getAnnee().toString());
                             listFraisHf.add(Global.listFraisMois.get(key).getLesFraisHf().get(i).getMontant().toString());
                             listFraisHf.add(Global.listFraisMois.get(key).getLesFraisHf().get(i).getMotif().toString());
-                            listFraisHf.add("cbedos");
-                            listFraisHf.add("gmhxd");
+                            listFraisHf.add(login.getText());
+                            listFraisHf.add(mdp.getText());
                             JSONArray fraisMoisHf = new JSONArray(listFraisHf);
 
                             accesDistant.envoi("fraismoisHf", fraisMoisHf);
@@ -111,8 +112,8 @@ public class LoginDialog extends Activity {
                         listFrais.add(Global.listFraisMois.get(key).getAnnee().toString());
                         listFrais.add(Global.listFraisMois.get(key).getMois().toString());
                         listFrais.add(Global.listFraisMois.get(key).getTypeVehicule().toString());
-                        listFrais.add("cbedos");
-                        listFrais.add("gmhxd");
+                        listFraisHf.add(login.getText());
+                        listFraisHf.add(mdp.getText());
 
                         JSONArray fraisMois = new JSONArray(listFrais);
 
